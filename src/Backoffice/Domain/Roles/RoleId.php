@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Backoffice\Users\Domain;
+namespace Src\Backoffice\Domain\Roles;
 
 use Src\Shared\Domain\Uuid;
 

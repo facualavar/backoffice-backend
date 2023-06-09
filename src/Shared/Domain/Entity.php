@@ -6,8 +6,8 @@ abstract class Entity
 {
     protected Uuid $id;
 
-    public function getId(): string
+    public function getId(): Uuid
     {
-        return $this->id->getValue();
+        return $this->id;
     }
 }
